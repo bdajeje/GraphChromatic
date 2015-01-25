@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jeje/Documents/Programming/Cpp/ChromaticNumber/ChromaticNumber/graph.cpp
+graph.hpp
+/home/jeje/Documents/Programming/Cpp/ChromaticNumber/ChromaticNumber/graph.hpp
+algorithm
+-
+boost/algorithm/string/classification.hpp
+-
+boost/algorithm/string/split.hpp
+-
+set
+-
+
+/home/jeje/Documents/Programming/Cpp/ChromaticNumber/ChromaticNumber/graph.hpp
+memory
+-
+string
+-
+vector
+-
+
+/home/jeje/Documents/Programming/Cpp/ChromaticNumber/ChromaticNumber/main.cpp
+fstream
+-
+iostream
+-
+graph.hpp
+/home/jeje/Documents/Programming/Cpp/ChromaticNumber/ChromaticNumber/graph.hpp
+

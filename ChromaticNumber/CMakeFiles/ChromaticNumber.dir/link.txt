@@ -1,0 +1,1 @@
+/usr/bin/clang++       CMakeFiles/ChromaticNumber.dir/graph.cpp.o CMakeFiles/ChromaticNumber.dir/main.cpp.o  -o ChromaticNumber -rdynamic 
