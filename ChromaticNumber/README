@@ -1,0 +1,19 @@
+Jeremy Gousse Azzimov Test - Chromatic Graphs
+
+INSTALLATION
+  run 'make' to compile
+
+RUN
+  run './ChromaticNumber TARGET_FILE' to launch the program, where TARGET_FILE is a file path to a file located under the graphs directory.
+  example: ./ChromaticNumber graphs/1
+
+OUTPUT
+  At the end of the process, the program outputs two different thing:
+  1: a representation of the graph it loaded (initially done to verify the correct load of the graph).
+  2: the number of unique colors in that graph.
+
+SRC
+  There are three source files: main.cpp graph.hpp graph.cpp
+
+PROJECT
+  The project uses c++ 11, git, cmake and gcc (it appears clang is not installed on the machine)
